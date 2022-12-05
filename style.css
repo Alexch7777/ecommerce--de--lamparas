@@ -1,43 +1,65 @@
 h1{
     color: brown;
-}
-h1{
     font-size: 2rem;
-}
-h1{
     text-align: center;
 }
+
 h1{
     font-family: fantasy;
 }
 .lamparas1{
     border: 10px solid;
-    
-
-}
-.lamparas1{
     text-align: center;
-}
-.lamparas1{
     text-decoration-line: underline;
     text-decoration-color: blue;
     text-decoration-style: double;
-}
-.lamparas1{
     background-color: gray;
 }
+
 #diseños1{
     text-align: center;
-}
-#diseños1{
     color: darkgoldenrod;
-}
-#diseños1{
     font-family: cursive;
-}
-#diseños1{
     text-transform: capitalize;
-}
-#diseños1{
     font-size: 40px;
+}
+#logo_carrito{
+    height: 50px;
+    width: 50px;
+}
+.contenedor_grid{
+    border: 3px solid brown;
+    background-color: darkturquoise;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1px;
+    padding: 2px;
+}
+.contenedor_grid>div{
+    display: block;
+    height: 300px;
+    padding: 2px;
+    align-items: center;
+}
+.pagina_inicial{
+    background-color: chartreuse;
+}
+.pagina_inicial:hover{
+    background-color: tomato;
+}
+.navegacion{
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+}
+.navegacion:hover{
+    font-size: 20px;
+    color: brown;
+}
+#boton_buscar{
+    background-color: darkorange;
+}
+#boton_buscar:hover{
+    background-color: chartreuse;
 }
