@@ -1,0 +1,13 @@
+main {
+  background-color: $colorfondo;
+
+  section {
+    h2 {
+      font-family: $tipografiaPrincipal;
+      color: $colorletra;
+    }
+  }
+  p {
+    @extend h2
+  }
+}

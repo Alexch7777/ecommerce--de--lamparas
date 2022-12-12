@@ -1,0 +1,25 @@
+header {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+      .menu {
+        display: flex;
+        justify-content: space-evenly;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: white;
+            display: flex;
+          }
+          
+        }
+      }
+      .botonBuscar{
+        @include botonBuscar;
+      }
+    }
+  }
+  

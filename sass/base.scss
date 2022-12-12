@@ -1,0 +1,23 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_header.scss";
+@import "_main.scss";
+@media only screen and (min-width: 320px) and (max-width: 500px)  {
+    body{
+        background-color: rgb(238, 20, 20);
+        .pagina_inicial{
+            font-size: 50px;
+            color: chartreuse;
+        }
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px)  {
+    body{
+        background-color:coral;
+        .pagina_inicial{
+            font-size: 100px;
+            color: darkmagenta;
+        }
+    }
+}
+

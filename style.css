@@ -1,65 +1,52 @@
-h1{
-    color: brown;
-    font-size: 2rem;
-    text-align: center;
+header {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav .menu li {
+  list-style: none;
+}
+header nav .menu li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+header nav .botonBuscar {
+  font-size: 20px;
+  background-color: red;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-h1{
-    font-family: fantasy;
+main {
+  background-color: red;
 }
-.lamparas1{
-    border: 10px solid;
-    text-align: center;
-    text-decoration-line: underline;
-    text-decoration-color: blue;
-    text-decoration-style: double;
-    background-color: gray;
+main section h2, main section p {
+  font-family: "Monserrat", sans-serif;
+  color: blue;
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  body {
+    background-color: rgb(238, 20, 20);
+  }
+  body .pagina_inicial {
+    font-size: 50px;
+    color: chartreuse;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  body {
+    background-color: coral;
+  }
+  body .pagina_inicial {
+    font-size: 100px;
+    color: darkmagenta;
+  }
 }
 
-#diseños1{
-    text-align: center;
-    color: darkgoldenrod;
-    font-family: cursive;
-    text-transform: capitalize;
-    font-size: 40px;
-}
-#logo_carrito{
-    height: 50px;
-    width: 50px;
-}
-.contenedor_grid{
-    border: 3px solid brown;
-    background-color: darkturquoise;
-
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 1px;
-    padding: 2px;
-}
-.contenedor_grid>div{
-    display: block;
-    height: 300px;
-    padding: 2px;
-    align-items: center;
-}
-.pagina_inicial{
-    background-color: chartreuse;
-}
-.pagina_inicial:hover{
-    background-color: tomato;
-}
-.navegacion{
-    background-color: aqua;
-    padding: 5px;
-    margin: 5px;
-}
-.navegacion:hover{
-    font-size: 20px;
-    color: brown;
-}
-#boton_buscar{
-    background-color: darkorange;
-}
-#boton_buscar:hover{
-    background-color: chartreuse;
-}
+/*# sourceMappingURL=style.css.map */
